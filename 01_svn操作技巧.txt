@@ -1,0 +1,45 @@
+ 
+
+1.  svn delete:
+   svn\ delete\ clean\ update\ commit
+ 
+2. svn add:
+   svn\ add\ commit
+
+3. svn delete and add:
+   svn\ delete\ clean\  copy new files\ add\ commit
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
