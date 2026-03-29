@@ -1,14 +1,28 @@
  
+1. 下载和安装 http://tortoisesvn.net/downloads
 
-1.  svn delete:
+2. 在本机建立了一个svn库
+     。建立一个目录 E:\svn_repo
+     。在“E:\svn_repo”，右键 TortoiseSVN->Create repository here
+     。如果跳出一个提示框 “数据库格式是FSFS还是BDB”，选 FSFS
+
+3.  在e盘建立一个目录，关联上面新建的svn库 “D:\SVNKU”
+     。建立一个目录 E:\svn_repo
+     。右键点击“E:\svn_repo”，选择SVN checkout，选中“file:///D:\SVNKU”
+
+4. 在E:\svn_repo，添加一个project目录
+     。建立一个目录 E:\svn_repo\multiadc
+     。右键点击“E:\svn_repo\multiadc”，选择TortoiseSVN，选中 add...
+     。右键点击“E:\svn_repo\multiadc”，选择SVN  commit
+
+5.  svn delete:
    svn\ delete\ clean\ update\ commit
- 
-2. svn add:
-   svn\ add\ commit
 
-3. svn delete and add:
+6. svn delete and add:
    svn\ delete\ clean\  copy new files\ add\ commit
 
+
+7. 当 E:\svn_repo\multiadc已完成测试，没有用途后，可一道old目录（或删除掉）
 
 
 
