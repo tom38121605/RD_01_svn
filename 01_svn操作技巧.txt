@@ -1,4 +1,7 @@
- 
+﻿ 
+注意：  svn库名要使用英文
+
+
 1. 下载和安装 http://tortoisesvn.net/downloads
 
 2. 在本机建立了一个svn库
